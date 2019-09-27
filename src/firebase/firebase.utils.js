@@ -2,14 +2,14 @@ import firebase from 'firebase/app';
 import 'firebase/firestore';
 import 'firebase/auth';
 const config = {
-  apiKey: 'AIzaSyAKUxWwF_xkjVw5JpYMxLc7SOZi9rt8I3c',
-  authDomain: 'ecommerce-11ac0.firebaseapp.com',
-  databaseURL: 'https://ecommerce-11ac0.firebaseio.com',
-  projectId: 'ecommerce-11ac0',
-  storageBucket: 'ecommerce-11ac0.appspot.com',
-  messagingSenderId: '586071044043',
-  appId: '1:586071044043:web:84ce4024bd2165d10a904e',
-  measurementId: 'G-SC6RTSEDN2'
+  apiKey: 'xxxxx',
+  authDomain: 'xxxxx',
+  databaseURL: 'xxxxx',
+  projectId: 'xxxxx',
+  storageBucket: 'xxxxx',
+  messagingSenderId: 'xxxxx',
+  appId: 'xxxxx',
+  measurementId: 'xxxxx'
 };
 
 export const createUserProfileDocument = async (userAuth, additionalData) => {
